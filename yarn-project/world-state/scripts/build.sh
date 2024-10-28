@@ -4,7 +4,7 @@ set -e
 
 cd "$(dirname "$0")/.."
 
-# relatiev path from the directory containing package.json
+# relative path from the directory containing package.json
 WORLD_STATE_LIB_PATH=../../barretenberg/cpp/build-pic/lib/world_state_napi.node
 PRESET=${PRESET:-clang16-pic}
 
